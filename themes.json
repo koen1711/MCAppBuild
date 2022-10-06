@@ -1,0 +1,542 @@
+{
+    "@play_btn":
+    {
+        "colours":
+        {
+            "normal_bg":"#e8092e",
+            "hovered_bg":"#79e810",
+            "disabled_bg":"#646d70",
+            "selected_bg":"#e89910",
+            "dark_bg":"#1ad6bd",
+            "normal_text":"#f2f5f3",
+            "hovered_text":"#f4f2fa",
+            "selected_text":"#f4f2fa",
+            "disabled_text":"#f4f2fa",
+            "link_text": "#050505",
+            "link_hover": "#050505",
+            "link_selected": "#050505",
+            "text_shadow": "#655ab0",
+            "normal_border": "#c4941a",
+            "hovered_border": "#1d6118",
+            "disabled_border": "#228c65",
+            "selected_border": "#228c65",
+            "active_border": "#228c65",
+            "filled_bar":"#228c65",
+            "unfilled_bar":"#228c65"
+        },
+        "font":
+        {
+            "name": "arial",
+            "size": "20",
+            "bold": "0",
+            "italic": "1",
+            "regular_resource": {
+                "package": "Fonts",
+                "resource": "ARIAL.TTF"
+            },
+            "bold_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBD.TTF"
+            },
+            "italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            }
+        },
+        "image":
+        {
+            "normal_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "0,0,32,32"
+            },
+            "hovered_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "32,0,32,32"
+            },
+            "selected_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "64,0,32,32"
+            },
+            "disabled_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "96,0,32,32"
+            }
+
+        },
+        "misc":
+        {
+            "border_width": "1",
+            "shadow_width": "1",
+            "tool_tip_delay": "1.0",
+            "text_horiz_alignment": "middle",
+            "text_vert_alignment": "middle",
+            "text_horiz_alignment_padding": "10",
+            "text_vert_alignment_padding": "5",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0",
+            "state_transitions":
+            {
+                "normal_hovered": "0.5",
+                "hovered_normal": "0.5"
+            }
+        }
+    },
+    "@back_btn":
+    {
+        "colours":
+        {
+            "normal_bg":"#132ccf",
+            "hovered_bg":"#f7340c",
+            "disabled_bg":"#ff0000",
+            "selected_bg":"#ff7300",
+            "dark_bg":"#000000",
+            "normal_text":"#f2f5f3",
+            "hovered_text":"#f2f5f3",
+            "selected_text":"#f4f2fa",
+            "disabled_text":"#f4f2fa",
+            "link_text": "#050505",
+            "link_hover": "#050505",
+            "link_selected": "#050505",
+            "text_shadow": "#213027",
+            "normal_border": "#c4941a",
+            "hovered_border": "#1d6118",
+            "disabled_border": "#228c65",
+            "selected_border": "#228c65",
+            "active_border": "#228c65",
+            "filled_bar":"#228c65",
+            "unfilled_bar":"#228c65"
+        },
+        "font":
+        {
+            "name": "arial",
+            "size": "20",
+            "bold": "1",
+            "italic": "0",
+            "regular_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            }
+        },
+        "image":
+        {
+            "normal_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "0,0,32,32"
+            },
+            "hovered_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "32,0,32,32"
+            },
+            "selected_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "64,0,32,32"
+            },
+            "disabled_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "96,0,32,32"
+            }
+
+        },
+        "misc":
+        {
+            "border_width": "1",
+            "shadow_width": "1",
+            "tool_tip_delay": "1.0",
+            "text_horiz_alignment": "middle",
+            "text_vert_alignment": "middle",
+            "text_horiz_alignment_padding": "10",
+            "text_vert_alignment_padding": "5",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0",
+            "state_transitions":
+            {
+                "normal_hovered": "0.5",
+                "hovered_normal": "0.5"
+            }
+        }
+    },
+    "#primary_btn":
+    {
+        "colours":
+        {
+            "normal_bg":"#ff7300",
+            "hovered_bg":"#ff00d4",
+            "disabled_bg":"#646d70",
+            "selected_bg":"#e89910",
+            "dark_bg":"#050505",
+            "normal_text":"#f2f5f3",
+            "hovered_text":"#f4f2fa",
+            "selected_text":"#f4f2fa",
+            "disabled_text":"#f4f2fa",
+            "link_text": "#050505",
+            "link_hover": "#050505",
+            "link_selected": "#050505",
+            "text_shadow": "#655ab0",
+            "normal_border": "#c4941a",
+            "hovered_border": "#1d6118",
+            "disabled_border": "#228c65",
+            "selected_border": "#228c65",
+            "active_border": "#228c65",
+            "filled_bar":"#228c65",
+            "unfilled_bar":"#228c65"
+        },
+        "font":
+        {
+            "name": "arial",
+            "size": "20",
+            "bold": "0",
+            "italic": "1",
+            "regular_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            }
+        },
+        "image":
+        {
+            "normal_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "0,0,32,32"
+            },
+            "hovered_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "32,0,32,32"
+            },
+            "selected_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "64,0,32,32"
+            },
+            "disabled_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "96,0,32,32"
+            }
+
+        },
+        "misc":
+        {
+            "border_width": "1",
+            "shadow_width": "1",
+            "tool_tip_delay": "1.0",
+            "text_horiz_alignment": "middle",
+            "text_vert_alignment": "middle",
+            "text_horiz_alignment_padding": "10",
+            "text_vert_alignment_padding": "5",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0",
+            "state_transitions":
+            {
+                "normal_hovered": "0.5",
+                "hovered_normal": "0.5"
+            }
+        }
+    },
+    "#secondary_btn":
+    {
+        "colours":
+        {
+            "normal_bg":"#243dff",
+            "hovered_bg":"#0cf0e4",
+            "disabled_bg":"#646d70",
+            "selected_bg":"#e89910",
+            "dark_bg":"#1ad6bd",
+            "normal_text":"#f2f5f3",
+            "hovered_text":"#f4f2fa",
+            "selected_text":"#f4f2fa",
+            "disabled_text":"#f4f2fa",
+            "link_text": "#050505",
+            "link_hover": "#050505",
+            "link_selected": "#050505",
+            "text_shadow": "#655ab0",
+            "normal_border": "#c4941a",
+            "hovered_border": "#1d6118",
+            "disabled_border": "#228c65",
+            "selected_border": "#228c65",
+            "active_border": "#228c65",
+            "filled_bar":"#228c65",
+            "unfilled_bar":"#228c65"
+        },
+        "font":
+        {
+            "name": "arial",
+            "size": "20",
+            "bold": "0",
+            "italic": "1",
+            "regular_resource": {
+                "package": "Fonts",
+                "resource": "ARIAL.TTF"
+            },
+            "bold_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBD.TTF"
+            },
+            "italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            }
+        },
+        "image":
+        {
+            "normal_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "0,0,32,32"
+            },
+            "hovered_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "32,0,32,32"
+            },
+            "selected_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "64,0,32,32"
+            },
+            "disabled_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "96,0,32,32"
+            }
+
+        },
+        "misc":
+        {
+            "border_width": "1",
+            "shadow_width": "1",
+            "tool_tip_delay": "1.0",
+            "text_horiz_alignment": "middle",
+            "text_vert_alignment": "middle",
+            "text_horiz_alignment_padding": "10",
+            "text_vert_alignment_padding": "5",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0",
+            "state_transitions":
+            {
+                "normal_hovered": "0.5",
+                "hovered_normal": "0.5"
+            }
+        }
+    },
+    "#danger_btn":
+    {
+        "colours":
+        {
+            "normal_bg":"#e8092e",
+            "hovered_bg":"#a82f3d",
+            "disabled_bg":"#646d70",
+            "selected_bg":"#e89910",
+            "dark_bg":"#1ad6bd",
+            "normal_text":"#f2f5f3",
+            "hovered_text":"#f4f2fa",
+            "selected_text":"#f4f2fa",
+            "disabled_text":"#f4f2fa",
+            "link_text": "#050505",
+            "link_hover": "#050505",
+            "link_selected": "#050505",
+            "text_shadow": "#655ab0",
+            "normal_border": "#c4941a",
+            "hovered_border": "#1d6118",
+            "disabled_border": "#228c65",
+            "selected_border": "#228c65",
+            "active_border": "#228c65",
+            "filled_bar":"#228c65",
+            "unfilled_bar":"#228c65"
+        },
+        "font":
+        {
+            "name": "arial",
+            "size": "20",
+            "bold": "0",
+            "italic": "1",
+            "regular_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            }
+        },
+        "image":
+        {
+            "normal_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "0,0,32,32"
+            },
+            "hovered_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "32,0,32,32"
+            },
+            "selected_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "64,0,32,32"
+            },
+            "disabled_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "96,0,32,32"
+            }
+
+        },
+        "misc":
+        {
+            "border_width": "1",
+            "shadow_width": "1",
+            "tool_tip_delay": "1.0",
+            "text_horiz_alignment": "middle",
+            "text_vert_alignment": "middle",
+            "text_horiz_alignment_padding": "10",
+            "text_vert_alignment_padding": "5",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0",
+            "state_transitions":
+            {
+                "normal_hovered": "0.5",
+                "hovered_normal": "0.5"
+            }
+        }
+    },
+    "@loading_screen":
+    {
+        "colours":
+        {
+            "normal_bg":"#0cf01b",
+            "hovered_bg":"#f0e40c",
+            "disabled_bg":"#646d70",
+            "selected_bg":"#e89910",
+            "dark_bg":"#1ad6bd",
+            "normal_text":"#f2f5f3",
+            "hovered_text":"#f4f2fa",
+            "selected_text":"#f4f2fa",
+            "disabled_text":"#f4f2fa",
+            "link_text": "#050505",
+            "link_hover": "#050505",
+            "link_selected": "#050505",
+            "text_shadow": "#655ab0",
+            "normal_border": "#c4941a",
+            "hovered_border": "#1d6118",
+            "disabled_border": "#228c65",
+            "selected_border": "#228c65",
+            "active_border": "#228c65",
+            "filled_bar":"#228c65",
+            "unfilled_bar":"#228c65"
+        },
+        "font":
+        {
+            "name": "arial",
+            "size": "20",
+            "bold": "0",
+            "italic": "1",
+            "regular_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            },
+            "bold_italic_resource": {
+                "package": "Fonts",
+                "resource": "ARIALBLACKITALIC.TTF"
+            }
+        },
+        "image":
+        {
+            "normal_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "0,0,32,32"
+            },
+            "hovered_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "32,0,32,32"
+            },
+            "selected_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "64,0,32,32"
+            },
+            "disabled_image": {
+                "package": "data.images",
+                "resource": "buttons.png",
+                "sub_surface_rect": "96,0,32,32"
+            }
+
+        },
+        "misc":
+        {
+            "border_width": "1",
+            "shadow_width": "1",
+            "tool_tip_delay": "1.0",
+            "text_horiz_alignment": "middle",
+            "text_vert_alignment": "middle",
+            "text_horiz_alignment_padding": "10",
+            "text_vert_alignment_padding": "5",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0",
+            "state_transitions":
+            {
+                "normal_hovered": "0.5",
+                "hovered_normal": "0.5"
+            }
+        }
+    }
+}

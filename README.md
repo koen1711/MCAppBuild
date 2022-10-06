@@ -10,4 +10,4 @@ Dan als de download klaar is klik je met je rechter muis knop op het bestand, en
 
 En als laatste klik je op Uitpakken, kies je de locatie en klaar!
 
-Zoek op F1 game en je kan gaan spellen!
+Zoek op F1 game en je kan gaan spelen!

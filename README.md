@@ -9,3 +9,5 @@ Hierna klik je op: ![image](https://user-images.githubusercontent.com/98043234/1
 Dan als de download klaar is klik je met je rechter muis knop op het bestand, en klik je op: "Weergeven in map."
 
 En als laatste klik je op Uitpakken, kies je de locatie en klaar!
+
+Zoek op F1 game en je kan gaan spellen!
